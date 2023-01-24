@@ -26,6 +26,7 @@
 </head>
 
 <body>
+    <!--------------- Header ------------>
     <header class="container">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -58,28 +59,71 @@
             </div>
         </nav>
 
+        <!------------- Banner ---------->
         <section class="container banner mt-5">
-            <div class="banner-wrap h-vh text-light">
-                <div class="bg-color">
+            <div class="banner-wrap h-vh text-light ">
+                <div class="background">
                     <div class="content text-center p-5">
-                        <h1 class="mt-5 pt-5">We Provide Effective Legal Solutions</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea ullam, nemo provident
-                            iste dolore eveniet excepturi, rerum, sequi quidem nihil magnam reiciendis! Eos maxime
-                            beatae ut ad. Et, eum!</p>
+                        <h1 class="mt-5 pt-5 fw-bold">We Provide Effective Legal Solutions</h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     </div>
 
                     <div class="text-center">
-                        <input type="text" placeholder="Search Your service">
-                        <button class="btn primary-btn">Search</button>
+                        <input class="w-50 py-2 rounded border-0" type="text" placeholder="Search Your service">
+                        <button class="btn primary-btn py-2">Search</button>
                     </div>
                 </div>
             </div>
         </section>
     </header>
 
+    <!---------- Mian section----------->
     <main class="container">
-        <section>
-            <div id="carouselExample" class="carousel slide container mt-5">
+                <!-------Legal Practice Aria---------->
+                <section class="container mt-5">
+                    <div class="ligal-practice-wrap">
+                        <div class="ligal-top-content text-center w-50 mx-auto">
+                            <h1>The Legal Practice Area</h1>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        </div>
+        
+                        <div class="ligal-items row mt-5">
+                            <div class="item-1 col-12 col-md-4 text-center border-bottom border-end p-5">
+                                <img src="images/business.png" alt="">
+                                <h3>Business Law</h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                  </svg>
+                            </div>
+                            <div class="item-2 col-12 col-md-4 text-center border-bottom border-end  p-5">
+                                <img src="images/criminal.png" alt="">
+                                <h3>Criminal Law</h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                  </svg>
+                            </div>
+                            <div class="item-3 col-12 col-md-4 text-center border-bottom  p-5">
+                                <img src="images/child.png" alt="">
+                                <h3>Child Support</h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill " viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        <!-------- Clients review ---------->
+        <section class="mt-5">
+
+            <div class="clients-content text-center w-50 mx-auto">
+                <h1>What Our Client Say</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div id="carouselExample" class=" mt-5 carousel slide container">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -91,8 +135,22 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col col-12 d-flex  justify-content-center  align-items-center coursel-img">
-                                <div class="bg-color">
+                            <div class="col col-12 d-flex  justify-content-center  align-items-center slider-img">
+                                <div class="background">
+                                    <div class="text-light py-5 px-5 text-center ">
+                                        <img  class="w-25" src="images/player-1.png" alt="">
+                                        <h1>Awlad Hossain</h1>
+                                        <h3>UIX Designer</h3>
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col col-12 d-flex  justify-content-center  align-items-center slider-img-2">
+                                <div class="background">
                                     <div class="text-center py-5 px-5 text-light">
                                         <img src="images/player-1.png" alt="" class="w-25">
                                         <h1>Awlad Hossain</h1>
@@ -105,22 +163,8 @@
                     </div>
                     <div class="carousel-item ">
                         <div class="row">
-                            <div class="col col-12 d-flex  justify-content-center  align-items-center coursel-img-2">
-                                <div class="bg-color">
-                                    <div class="text-center py-5 px-5 text-light">
-                                        <img src="images/player-1.png" alt="" class="w-25">
-                                        <h1>Awlad Hossain</h1>
-                                        <h3>UIX Designer</h3>
-                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="row">
-                            <div class="col col-12 d-flex  justify-content-center  align-items-center coursel-img-3">
-                                <div class="bg-color">
+                            <div class="col col-12 d-flex  justify-content-center  align-items-center slider-img-3">
+                                <div class="background">
                                     <div class="text-center py-5 px-5 text-light">
                                         <img src="images/player-1.png" alt="" class="w-25">
                                         <h1>Awlad Hossain</h1>
@@ -142,6 +186,7 @@
                 </button>
             </div>
         </section>
+
     </main>
 
     <footer>

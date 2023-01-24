@@ -7,6 +7,10 @@ a, p, li{
     font-family: 'Poppins', sans-serif;
 
 }
+
+svg{
+    color: #B68C5A;
+}
 /* ================primary Button========= */
 .primary-btn{
     background: #B68C5A;
@@ -22,19 +26,19 @@ a, p, li{
     background-size: cover;
     background-position: center;
 }
-.bg-color{
+.background{
     background-color: rgba(0, 0, 0, 0.356);
     height: 100%;
     width: 100%;
 }
-.coursel-img{
+.slider-img{
     background-image: url(../images/slider-1.jpg);
 }
-.coursel-img-2{
+.slider-img-2{
     background-image: url(../images/slider-2.jpg);
     background-size: cover;
 }
-.coursel-img-3{
+.slider-img-3{
     background-image: url(../images/slider-3.jpg);
     background-size: cover;
 }
