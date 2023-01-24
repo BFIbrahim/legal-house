@@ -18,6 +18,10 @@ svg{
     font-weight: 600;
     color: white;
 }
+.primary-btn:hover{
+    background: #B68C5A;
+
+}
 
 
 /* ========Banner external CSS style======== */
