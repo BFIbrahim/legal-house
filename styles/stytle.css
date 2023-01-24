@@ -20,6 +20,7 @@ svg{
 }
 
 
+/* ========Banner external CSS style======== */
 .banner-wrap{
     height: 550px;
     background-image: url(../images/banner.png);
@@ -31,6 +32,8 @@ svg{
     height: 100%;
     width: 100%;
 }
+
+/* =========Slider========= */
 .slider-img{
     background-image: url(../images/slider-1.jpg);
 }
